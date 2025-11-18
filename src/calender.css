@@ -1,0 +1,56 @@
+.cal-box {
+  background: #0c1a21;
+  color: #e5f4ff;
+  padding: 12px;
+  border-radius: 6px;
+  width: fit-content;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+}
+
+.cal-header {
+  text-align: center;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.cal-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.cal-nav button {
+  background: #17303a;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.cal-row {
+  display: flex;
+  gap: 6px;
+}
+
+.cal-row span {
+  width: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cal-active {
+  background: #d6e8f0;
+  color: #000;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.cal-today {
+  border: 1px solid #6bbcff;
+  border-radius: 4px;
+}
